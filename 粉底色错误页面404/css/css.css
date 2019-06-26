@@ -1,0 +1,44 @@
+
+
+body{background-color: #EC5E5E;text-align: center;}
+#display{/*float: left;*/ display: inline-block;}
+.warp h1{font-size: 50px;line-height: 50px;padding-top: 30px;color: #fff;}
+.warp h3{font-size: 18px;line-height: 18px;padding: 20px 0 30px 0; color: #fff;}
+.warp .img{
+		width: 600px;
+		height: 350px; 
+		background-image: url(../img/computer.png);
+		background-origin: content-box;	 /*从content区域开始显示背景*/
+		background-position:0 50%;	/*图片上下左右居中 50% 50%*/
+		background-size: contain;	 /*保持图像本身的宽高比例，将图片缩放到宽度或高度正好适应定义背景的区域*/
+		background-repeat: no-repeat; 
+		margin: 0 auto;
+	}
+.warp .img .img_p{margin: 0 auto; padding-top: 300px;color: #fff;font-size: 14px;line-height: 16px;}
+.icon_items{margin: 0 auto;padding-top: 10px;}
+.icon_item{padding-right: 20px;}
+.icon_item img{width: 60px;height: 60px;}
+.icon_item p{color: #fff;padding: 5px 0;font-size: 12px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

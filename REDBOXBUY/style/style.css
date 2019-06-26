@@ -1,0 +1,351 @@
+/* public style */
+.inner {
+  width: 1200px;
+  /* display: inline-block; */
+  margin: 0 auto;
+}
+
+.pleft {
+  float: left;
+}
+
+.pright {
+  float: right;
+}
+
+.Active {
+  color: #ec000f;
+}
+
+.mienUnderline {
+  width: 45px;
+  border: 1px solid #000000;
+  margin: 19px auto;
+  /* text-align: center; */
+}
+
+.footerUnderline {
+  width: 170px;
+  border: 1px solid #e5e5e5;
+  margin: auto auto 12px auto;
+  /* text-align: center; */
+}
+
+body {
+  background-color: #ffffff;
+}
+
+/* header style */
+.header {
+  background: url(../images/topbackgroud1_01_01.jpg) no-repeat left top;
+  background-size: 100% 100%;
+  height: 550px;
+}
+
+.menuBox {
+  height: 90px;
+  background-color: #f5fbfe;
+}
+
+.menulogo {
+  padding: 20px 0px 0px 76px;
+}
+
+.menu ul {
+  padding-right: 150px;
+}
+
+.menu ul li {
+  display: block;
+  float: left;
+}
+
+.menu ul li a {
+  padding: 0px 25px;
+  line-height: 90px;
+}
+
+.menu ul li a:hover {
+  color: #ec000f;
+}
+
+/* .menu_search{
+    height: 22px;
+    width: 22px; 
+} */
+.menu > img {
+  padding: 35px 100px 35px 28px;
+  cursor: pointer;
+}
+
+.searchBox {
+  width: 622px;
+  height: 200px;
+  margin: 140px auto;
+  position: relative;
+  vertical-align: top;
+}
+
+.searchBox span {
+  background: url(../images/search_icon_04_03.png) no-repeat top left;
+  height: 21px;
+  width: 21px;
+  position: absolute;
+  right: 32px;
+  top: 19px;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.searchBox input {
+  width: 620px;
+  height: 56px;
+  border: 1px solid #ec000f;
+  border-radius: 50px;
+  text-indent: 33px;
+  font-size: 14px;
+  background: rgba(230, 225, 225, 0.5);
+}
+
+.searchBox .menuButton {
+  padding-top: 97px;
+  text-align: center;
+}
+
+.searchBox .menuButton button {
+  width: 116px;
+  height: 41px;
+  line-height: 39px;
+  border: 1px solid #e50615;
+  border-radius: 50px;
+  color: #e50615;
+  background-color: #ffffff;
+  font-size: 18px;
+}
+
+.searchBox .menuButton button:first-child {
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  background-color: #e50615;
+  margin-right: 80px;
+}
+.searchBox .menuButton button:first-child:hover {
+  border: 1px solid #e50615;
+  color: #e50615;
+  background-color: #ffffff;
+}
+.searchBox .menuButton button:last-child:hover {
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  background-color: #e50615;
+}
+
+/* content pageNav Style */
+.pageNav {
+  height: 70px;
+  background-color: #f0f0f0;
+  text-align: center;
+  color: #d2d2d2;
+}
+
+.pageNav li {
+  display: inline-block;
+  width: 287px;
+  line-height: 70px;
+}
+
+.pageNav img {
+  /* height: 22px;
+  width: 21px; */
+  vertical-align: middle;
+  margin-right: 19px;
+}
+
+.pageNav span {
+  height: 100%;
+  vertical-align: middle;
+  color: #666666;
+}
+
+/* content company_Introduce style */
+.company_Introduce {
+  height: 728px;
+}
+.introduceText {
+  width: 588px;
+  font-family: "Microsoft YaHei", "微软雅黑";
+}
+.introduceText span {
+  display: inline-block;
+  height: 39px;
+  width: 212px;
+  background-color: #ec000f;
+  color: #ffffff;
+  text-align: center;
+  line-height: 39px;
+  margin-top: 101px;
+}
+.introduceText h1 {
+  font-size: 48px;
+  color: #333333;
+  font-family: "微软雅黑";
+  font-weight: bold;
+}
+.introduceText p {
+  font-size: 12px;
+  line-height: 26px;
+  padding-bottom: 22px;
+  color: #808080;
+  text-indent: 2em;
+}
+.introduceImg {
+  width: 600px;
+  position: relative;
+}
+.introduceImg span {
+  font-size: 24px;
+  line-height: 24px;
+  position: absolute;
+  top: 123px;
+  right: 212px;
+  z-index: 100;
+  color: #ec000f;
+  text-shadow: 1px 1px 1px #ffffff;
+}
+.introduceImg .intro1 {
+  width: 385px;
+  height: 485px;
+  position: absolute;
+  right: 110px;
+  top: 152px;
+  z-index: 100;
+}
+.introduceImg .intro2 {
+  width: 261px;
+  height: 333px;
+  position: absolute;
+  top: 72px;
+  right: 0px;
+  z-index: 10;
+}
+
+/* .company_Mien Style*/
+.company_Mien {
+  background: url(../images/mienbg.png) repeat-x top left;
+  height: 723px;
+  text-align: center;
+}
+.company_Mien .mien span {
+  display: inline-block;
+  font-size: 30px;
+  line-height: 26px;
+  padding-top: 72px;
+}
+
+/* footer Style */
+.footer {
+  height: 303px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #333333;
+}
+.footer .footerTop {
+  height: 206px;
+  position: relative;
+}
+.footer .footerTop .footerNav ul {
+  padding-top: 61px;
+  float: left;
+}
+.footer .footerTop .footerNav ul:first-child {
+  padding-right: 230px;
+}
+.footer .footerTop .footerNav ul li a:hover {
+  color: #ec000f;
+}
+.footer .footerTop .footerCenter {
+  /* position定位居中,父类position: relative; 不知道元素宽度高度使用 transform:translate(-50%,-50%);实现 */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.footer .footerTop .footerRight {
+  text-align: right;
+  /* position定位居中,父类position: relative; 不知道元素宽度高度使用 transform:translate(-50%,-50%);实现 */
+  position: absolute;
+  right: 0;
+  top: 25%;
+  /* transform: translate(-50%,); */
+}
+.footer .footerTop .QrText {
+  margin-right: 52px;
+}
+
+.footer .footerTop .footerRight p:first-child {
+  font-size: 24px;
+  line-height: 24px;
+  color: #666666;
+}
+.footer .footerTop .footerRight p:nth-child(2) {
+  font-size: 19px;
+  line-height: 33px;
+  color: #666666;
+}
+.footer .footerTop .footerRight img,
+.footer .footerTop .footerRight span {
+  vertical-align: middle;
+}
+.footer .footerTop .footerRight span {
+  padding: 0 7px 0 27px;
+}
+
+.footer .footerTop .Qrcode {
+  width: 84px;
+  height: 84px;
+  background: url(../images/images/footer01_03.jpg) no-repeat center center;
+}
+
+.footer .footerBottom {
+  height: 96px;
+  border-top: 1px solid #f1f1f1;
+}
+.footer .footerBottom .footerBottomLeft{
+  position: relative;
+  vertical-align: top;
+  padding-top: 23px;
+}
+.footer .footerBottom .footerBottomLeft span{
+  background: url('../images/images/footer01_15.png') no-repeat top left;
+  width: 15px;
+  height: 10px;
+  z-index: 1;
+  position: absolute;
+  right: 181px;
+  top: 35px;
+}
+.footer .footerBottom .footerBottomLeft input{
+  width: 277px;
+  height: 32px;
+  border: 1px solid #aaaaaa;
+  border-radius: 50px;
+  font-size: 14px;
+  text-indent: 10px;
+  color: #aaaaaa;
+  margin-right: 23px;
+}
+.footer .footerBottom .footerBottomLeft a{
+  padding-right: 16px;
+  font-size: 14px;
+  color: #575757;
+}
+.footer .footerBottom .footerBottomLeft a:hover{
+  color: #ec000f;
+}
+.footer .footerBottom .footerBottomRight{
+  font-size: 12px;
+  font-family: '微软雅黑';
+  color: #aaaaaa;  
+  margin-top: 25px;
+}
